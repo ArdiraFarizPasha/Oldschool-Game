@@ -2,7 +2,7 @@ function checksoal0(){
 
     var soal1 = document.getElementById("textbox").value
 
-        if (soal1 == "rano karno" || soal1 == 'Rano Karno') {
+        if (soal1 == "rano karno" || soal1 == "Rano Karno") {
             document.getElementById("jawaban").style.visibility = "visible"
             document.getElementById("jawaban").innerText = "jokes 90an, ga ngerti kebangetan bre"
             document.getElementById("jawabanBenar").style.visibility = "visible"
