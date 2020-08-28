@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    background-image: url('bongocat.gif');
+    background-size: 300px 200px;
+}
+
+.index {
+    background-color: black;
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.index p a {
+    text-decoration: none;
+    color: white;
+}
+
+.opening {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.opening p a {
+    text-decoration: none;
+    color: black;
+}
+
+.howtoplay {
+    left: 0;
+    line-height: 100px;
+    margin-top: 300px;
+    /* position: absolute; */
+    text-align: center;
+    width: 100%;
+}
+
+.listTengah {
+
+    padding: 100px;
+    margin-left: 100px;
+    line-height: 50px;
+    margin-top: -100px;
+    /* position: absolute; */
+    text-align: left;
+    width: 100%;
+
+}
+
+.listTengah p a{
+
+    text-decoration: none;
+
+}
+
+.gambarTengah {
+
+    left: 0;
+    line-height: 100px;
+    margin-top: 300px;
+    /* position: absolute; */
+    text-align: center;
+    width: 100%;
+
+    /* left: 0;
+    padding: 100px;
+    margin-left: 500px;
+    line-height: 100px;
+    margin-top: -100px;
+    /* position: absolute; */
+    /* text-align: center;
+    width: 100%; */
+}
+
+.jawabanTengah {
+
+    left: 0;
+    line-height: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+    /* position: absolute; */
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+
+    /* left: 0;
+    margin: 50px;
+    padding: 20px;
+    margin-left: 400px;
+    margin-top: -100px; */
+    /* position: absolute; */
+    /* text-align: center;
+    width: 50%; */
+
+}
+
+.tombolSubmit {
+
+    position: absolute ;
+    margin: auto;
+    left: 50%;
+    top:50%;
+    /* position: absolute; */
+    text-align: center;
+    width: 50%;
+
+}
+#afterSubmit {
+
+    text-align: center;
+
+    margin-top: -100px;
+
+    background-color: lightgrey;
+
+    width: 50%;
+
+    margin-left: 330px;
+
+}
+
+
+
+#jawaban {
+
+    visibility: hidden;
+    
+}
+
+
+#jawabanBenar {
+
+    visibility: hidden;
+}
+
+#final {
+
+    background-image: url("ending.gif");
+
+    background-size: auto
+
+}
