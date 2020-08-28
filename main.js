@@ -73,7 +73,7 @@ function checksoal4(){
 
         if (soal1 == "gosong") {
             document.getElementById("jawaban").style.visibility = "visible"
-            document.getElementById("jawaban").innerText = "ntap"
+            document.getElementById("jawaban").innerText = "ntap juragan"
             document.getElementById("jawabanBenar").style.visibility = "visible"
 
         } else {
@@ -133,7 +133,7 @@ function checksoal8(){
 
         if (soal1 == "goyang dombred") {
             document.getElementById("jawaban").style.visibility = "visible"
-            document.getElementById("jawaban").innerText = "salah deng, sebelumnnya level 8 euy, maap"
+            document.getElementById("jawaban").innerText = "gimana? masi mau lanjut?"
             document.getElementById("jawabanBenar").style.visibility = "visible"
 
         } else {
